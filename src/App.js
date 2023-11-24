@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {getAuth, onAuthStateChanged} from 'firebase/auth';
 import { useEffect } from "react";
 import { useStateValue } from "./StateProvider.js";
+import Payment from "./Payment.js";
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
     <Router>
       <div className="app">
         <Routes>
+          <Route path="/payment" element = {<><Payment /></>} />
           <Route path="/login" element = {<Login />} />
           <Route path="/Checkout" element={<><Header /><Checkout /></>} />
           <Route path="/" element={<><Header /><Home /></>} />
