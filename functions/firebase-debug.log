@@ -1,0 +1,389 @@
+[debug] [2023-11-25T04:10:32.587Z] ----------------------------------------------------------------------
+[debug] [2023-11-25T04:10:32.590Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Sahil Tushamar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-11-25T04:10:32.590Z] CLI Version:   12.9.1
+[debug] [2023-11-25T04:10:32.590Z] Platform:      win32
+[debug] [2023-11-25T04:10:32.590Z] Node Version:  v20.9.0
+[debug] [2023-11-25T04:10:32.591Z] Time:          Sat Nov 25 2023 09:40:32 GMT+0530 (India Standard Time)
+[debug] [2023-11-25T04:10:32.591Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-25T04:10:32.728Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-25T04:10:32.729Z] > authorizing via signed-in user (sahil8713@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2023-11-25T04:10:32.742Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-11-25T04:10:32.742Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-11-25T04:10:32.743Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-11-25T04:10:32.755Z] [hub] writing locator at C:\Users\SAHILT~1\AppData\Local\Temp\hub-ecom-clone-1a7aa.json
+[debug] [2023-11-25T04:10:32.780Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-11-25T04:10:32.780Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-11-25T04:10:32.780Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[debug] [2023-11-25T04:10:32.785Z] defaultcredentials: writing to file C:\Users\Sahil Tushamar\AppData\Roaming\firebase\sahil8713_gmail_com_application_default_credentials.json
+[debug] [2023-11-25T04:10:32.789Z] Setting GAC to C:\Users\Sahil Tushamar\AppData\Roaming\firebase\sahil8713_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Sahil Tushamar\\AppData\\Roaming\\firebase\\sahil8713_gmail_com_application_default_credentials.json"}}
+[debug] [2023-11-25T04:10:32.790Z] > refreshing access token with scopes: []
+[debug] [2023-11-25T04:10:32.792Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-11-25T04:10:32.792Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-25T04:10:32.991Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-11-25T04:10:32.992Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-25T04:10:33.013Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecom-clone-1a7aa/adminSdkConfig [none]
+[debug] [2023-11-25T04:10:33.773Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecom-clone-1a7aa/adminSdkConfig 200
+[debug] [2023-11-25T04:10:33.774Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecom-clone-1a7aa/adminSdkConfig {"projectId":"ecom-clone-1a7aa","storageBucket":"ecom-clone-1a7aa.appspot.com"}
+[debug] [2023-11-25T04:10:34.312Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecom-clone-1a7aa/sites 
+[debug] [2023-11-25T04:10:35.522Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecom-clone-1a7aa/sites 200
+[debug] [2023-11-25T04:10:35.523Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecom-clone-1a7aa/sites {"sites":[{"name":"projects/ecom-clone-1a7aa/sites/ecom-clone-1a7aa","defaultUrl":"https://ecom-clone-1a7aa.web.app","appId":"1:907441343777:web:2f8e37ed02b870c9f94260","type":"DEFAULT_SITE"}]}
+[debug] [2023-11-25T04:10:35.524Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecom-clone-1a7aa/webApps/1:907441343777:web:2f8e37ed02b870c9f94260/config [none]
+[debug] [2023-11-25T04:10:36.425Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecom-clone-1a7aa/webApps/1:907441343777:web:2f8e37ed02b870c9f94260/config 200
+[debug] [2023-11-25T04:10:36.425Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecom-clone-1a7aa/webApps/1:907441343777:web:2f8e37ed02b870c9f94260/config {"projectId":"ecom-clone-1a7aa","appId":"1:907441343777:web:2f8e37ed02b870c9f94260","storageBucket":"ecom-clone-1a7aa.appspot.com","apiKey":"AIzaSyBB2j-duFarudRuY6jJtCr4vK2_yIogzko","authDomain":"ecom-clone-1a7aa.firebaseapp.com","messagingSenderId":"907441343777","measurementId":"G-S3KRCSGQS7"}
+[debug] [2023-11-25T04:10:36.444Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecom-clone-1a7aa [none]
+[debug] [2023-11-25T04:10:36.785Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecom-clone-1a7aa 200
+[debug] [2023-11-25T04:10:36.786Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecom-clone-1a7aa {"projectId":"ecom-clone-1a7aa","projectNumber":"907441343777","displayName":"ecom-clone","name":"projects/ecom-clone-1a7aa","resources":{"hostingSite":"ecom-clone-1a7aa"},"state":"ACTIVE","etag":"1_9b5fd3fd-68b4-4e84-bcb0-212371d2ba1f"}
+[info] i  hosting[ecom-clone-1a7aa]: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting[ecom-clone-1a7aa]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[info] i  ui: downloading ui-v1.11.7.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.11.7.zip..."}}
+[debug] [2023-11-25T04:10:36.846Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.7.zip 
+[debug] [2023-11-25T04:10:37.206Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.7.zip 200
+[debug] [2023-11-25T04:10:37.207Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.11.7.zip [stream]
+[debug] [2023-11-25T04:10:37.374Z] Data is 3064105
+[debug] [2023-11-25T04:10:37.375Z] [unzip] Entry: client/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-11-25T04:10:37.375Z] [unzip] Processing entry: client\
+[debug] [2023-11-25T04:10:37.375Z] [unzip] mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\
+[debug] [2023-11-25T04:10:37.375Z] [unzip] Entry: client/favicon.ico (compressed_size=2497 bytes, uncompressed_size=7406 bytes)
+[debug] [2023-11-25T04:10:37.375Z] [unzip] Processing entry: client\favicon.ico
+[debug] [2023-11-25T04:10:37.376Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2023-11-25T04:10:37.376Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\favicon.ico
+[debug] [2023-11-25T04:10:37.380Z] [unzip] Entry: client/apple-touch-icon.png (compressed_size=7231 bytes, uncompressed_size=7367 bytes)
+[debug] [2023-11-25T04:10:37.380Z] [unzip] Processing entry: client\apple-touch-icon.png
+[debug] [2023-11-25T04:10:37.380Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2023-11-25T04:10:37.380Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\apple-touch-icon.png
+[debug] [2023-11-25T04:10:37.381Z] [unzip] Entry: client/android-chrome-512x512.png (compressed_size=16987 bytes, uncompressed_size=18186 bytes)
+[debug] [2023-11-25T04:10:37.382Z] [unzip] Processing entry: client\android-chrome-512x512.png
+[debug] [2023-11-25T04:10:37.382Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2023-11-25T04:10:37.382Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\android-chrome-512x512.png
+[debug] [2023-11-25T04:10:37.384Z] [unzip] Entry: client/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-11-25T04:10:37.384Z] [unzip] Processing entry: client\assets\
+[debug] [2023-11-25T04:10:37.384Z] [unzip] mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\
+[debug] [2023-11-25T04:10:37.385Z] [unzip] Entry: client/assets/extensions/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-11-25T04:10:37.385Z] [unzip] Processing entry: client\assets\extensions\
+[debug] [2023-11-25T04:10:37.385Z] [unzip] mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\extensions\
+[debug] [2023-11-25T04:10:37.385Z] [unzip] Entry: client/assets/extensions/default-extension.png (compressed_size=1646 bytes, uncompressed_size=1657 bytes)
+[debug] [2023-11-25T04:10:37.385Z] [unzip] Processing entry: client\assets\extensions\default-extension.png
+[debug] [2023-11-25T04:10:37.385Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\extensions
+[debug] [2023-11-25T04:10:37.386Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\extensions\default-extension.png
+[debug] [2023-11-25T04:10:37.387Z] [unzip] Entry: client/assets/index.58ca09f7.css (compressed_size=37601 bytes, uncompressed_size=321252 bytes)
+[debug] [2023-11-25T04:10:37.387Z] [unzip] Processing entry: client\assets\index.58ca09f7.css
+[debug] [2023-11-25T04:10:37.387Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets
+[debug] [2023-11-25T04:10:37.388Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\index.58ca09f7.css
+[debug] [2023-11-25T04:10:37.390Z] [unzip] Entry: client/assets/index.c2583d42.js (compressed_size=526232 bytes, uncompressed_size=1860152 bytes)
+[debug] [2023-11-25T04:10:37.391Z] [unzip] Processing entry: client\assets\index.c2583d42.js
+[debug] [2023-11-25T04:10:37.391Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets
+[debug] [2023-11-25T04:10:37.391Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\index.c2583d42.js
+[debug] [2023-11-25T04:10:37.402Z] [unzip] Entry: client/assets/provider-icons/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-11-25T04:10:37.402Z] [unzip] Processing entry: client\assets\provider-icons\
+[debug] [2023-11-25T04:10:37.402Z] [unzip] mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\
+[debug] [2023-11-25T04:10:37.403Z] [unzip] Entry: client/assets/provider-icons/auth_service_oidc.svg (compressed_size=414 bytes, uncompressed_size=858 bytes)
+[debug] [2023-11-25T04:10:37.403Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2023-11-25T04:10:37.403Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2023-11-25T04:10:37.403Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_oidc.svg
+[debug] [2023-11-25T04:10:37.405Z] [unzip] Entry: client/assets/provider-icons/auth_service_yahoo.svg (compressed_size=577 bytes, uncompressed_size=1182 bytes)
+[debug] [2023-11-25T04:10:37.405Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2023-11-25T04:10:37.405Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2023-11-25T04:10:37.405Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_yahoo.svg
+[debug] [2023-11-25T04:10:37.406Z] [unzip] Entry: client/assets/provider-icons/auth_service_phone.svg (compressed_size=261 bytes, uncompressed_size=414 bytes)
+[debug] [2023-11-25T04:10:37.406Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_phone.svg
+[debug] [2023-11-25T04:10:37.406Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2023-11-25T04:10:37.406Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_phone.svg
+[debug] [2023-11-25T04:10:37.407Z] [unzip] Entry: client/assets/provider-icons/auth_service_saml.svg (compressed_size=575 bytes, uncompressed_size=1226 bytes)
+[debug] [2023-11-25T04:10:37.408Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_saml.svg
+[debug] [2023-11-25T04:10:37.408Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2023-11-25T04:10:37.408Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_saml.svg
+[debug] [2023-11-25T04:10:37.409Z] [unzip] Entry: client/assets/provider-icons/auth_service_mslive.svg (compressed_size=203 bytes, uncompressed_size=378 bytes)
+[debug] [2023-11-25T04:10:37.409Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2023-11-25T04:10:37.409Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2023-11-25T04:10:37.409Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_mslive.svg
+[debug] [2023-11-25T04:10:37.410Z] [unzip] Entry: client/assets/provider-icons/auth_service_facebook.svg (compressed_size=289 bytes, uncompressed_size=457 bytes)
+[debug] [2023-11-25T04:10:37.410Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2023-11-25T04:10:37.410Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2023-11-25T04:10:37.411Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_facebook.svg
+[debug] [2023-11-25T04:10:37.412Z] [unzip] Entry: client/assets/provider-icons/auth_service_play_games.svg (compressed_size=565 bytes, uncompressed_size=1173 bytes)
+[debug] [2023-11-25T04:10:37.412Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2023-11-25T04:10:37.412Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2023-11-25T04:10:37.412Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_play_games.svg
+[debug] [2023-11-25T04:10:37.413Z] [unzip] Entry: client/assets/provider-icons/auth_service_github.svg (compressed_size=466 bytes, uncompressed_size=838 bytes)
+[debug] [2023-11-25T04:10:37.413Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_github.svg
+[debug] [2023-11-25T04:10:37.413Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2023-11-25T04:10:37.413Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_github.svg
+[debug] [2023-11-25T04:10:37.414Z] [unzip] Entry: client/assets/provider-icons/auth_service_apple.svg (compressed_size=230 bytes, uncompressed_size=334 bytes)
+[debug] [2023-11-25T04:10:37.414Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_apple.svg
+[debug] [2023-11-25T04:10:37.414Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2023-11-25T04:10:37.414Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_apple.svg
+[debug] [2023-11-25T04:10:37.415Z] [unzip] Entry: client/assets/provider-icons/auth_service_google.svg (compressed_size=409 bytes, uncompressed_size=720 bytes)
+[debug] [2023-11-25T04:10:37.415Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_google.svg
+[debug] [2023-11-25T04:10:37.415Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2023-11-25T04:10:37.416Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_google.svg
+[debug] [2023-11-25T04:10:37.417Z] [unzip] Entry: client/assets/provider-icons/auth_service_email.svg (compressed_size=228 bytes, uncompressed_size=326 bytes)
+[debug] [2023-11-25T04:10:37.417Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_email.svg
+[debug] [2023-11-25T04:10:37.417Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2023-11-25T04:10:37.418Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_email.svg
+[debug] [2023-11-25T04:10:37.419Z] [unzip] Entry: client/assets/provider-icons/auth_service_twitter.svg (compressed_size=444 bytes, uncompressed_size=751 bytes)
+[debug] [2023-11-25T04:10:37.419Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2023-11-25T04:10:37.419Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2023-11-25T04:10:37.419Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_twitter.svg
+[debug] [2023-11-25T04:10:37.420Z] [unzip] Entry: client/assets/provider-icons/auth_service_game_center.svg (compressed_size=991 bytes, uncompressed_size=3921 bytes)
+[debug] [2023-11-25T04:10:37.420Z] [unzip] Processing entry: client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2023-11-25T04:10:37.420Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons
+[debug] [2023-11-25T04:10:37.420Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\provider-icons\auth_service_game_center.svg
+[debug] [2023-11-25T04:10:37.421Z] [unzip] Entry: client/assets/index.c2583d42.js.map (compressed_size=1778557 bytes, uncompressed_size=7961927 bytes)
+[debug] [2023-11-25T04:10:37.421Z] [unzip] Processing entry: client\assets\index.c2583d42.js.map
+[debug] [2023-11-25T04:10:37.421Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets
+[debug] [2023-11-25T04:10:37.422Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\index.c2583d42.js.map
+[debug] [2023-11-25T04:10:37.457Z] [unzip] Entry: client/assets/img/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-11-25T04:10:37.457Z] [unzip] Processing entry: client\assets\img\
+[debug] [2023-11-25T04:10:37.457Z] [unzip] mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\img\
+[debug] [2023-11-25T04:10:37.458Z] [unzip] Entry: client/assets/img/database.png (compressed_size=29449 bytes, uncompressed_size=29988 bytes)
+[debug] [2023-11-25T04:10:37.458Z] [unzip] Processing entry: client\assets\img\database.png
+[debug] [2023-11-25T04:10:37.458Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\img
+[debug] [2023-11-25T04:10:37.458Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\assets\img\database.png
+[debug] [2023-11-25T04:10:37.459Z] [unzip] Entry: client/safari-pinned-tab.svg (compressed_size=838 bytes, uncompressed_size=1504 bytes)
+[debug] [2023-11-25T04:10:37.459Z] [unzip] Processing entry: client\safari-pinned-tab.svg
+[debug] [2023-11-25T04:10:37.459Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2023-11-25T04:10:37.459Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\safari-pinned-tab.svg
+[debug] [2023-11-25T04:10:37.460Z] [unzip] Entry: client/mstile-150x150.png (compressed_size=5406 bytes, uncompressed_size=5723 bytes)
+[debug] [2023-11-25T04:10:37.460Z] [unzip] Processing entry: client\mstile-150x150.png
+[debug] [2023-11-25T04:10:37.460Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2023-11-25T04:10:37.460Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\mstile-150x150.png
+[debug] [2023-11-25T04:10:37.461Z] [unzip] Entry: client/browserconfig.xml (compressed_size=491 bytes, uncompressed_size=822 bytes)
+[debug] [2023-11-25T04:10:37.461Z] [unzip] Processing entry: client\browserconfig.xml
+[debug] [2023-11-25T04:10:37.462Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2023-11-25T04:10:37.462Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\browserconfig.xml
+[debug] [2023-11-25T04:10:37.462Z] [unzip] Entry: client/robots.txt (compressed_size=26 bytes, uncompressed_size=26 bytes)
+[debug] [2023-11-25T04:10:37.463Z] [unzip] Processing entry: client\robots.txt
+[debug] [2023-11-25T04:10:37.463Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2023-11-25T04:10:37.463Z] [unzip] Writing file: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\robots.txt
+[debug] [2023-11-25T04:10:37.464Z] [unzip] Entry: client/index.html (compressed_size=1363 bytes, uncompressed_size=3064 bytes)
+[debug] [2023-11-25T04:10:37.464Z] [unzip] Processing entry: client\index.html
+[debug] [2023-11-25T04:10:37.464Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2023-11-25T04:10:37.464Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\index.html
+[debug] [2023-11-25T04:10:37.465Z] [unzip] Entry: client/favicon-16x16.png (compressed_size=757 bytes, uncompressed_size=777 bytes)
+[debug] [2023-11-25T04:10:37.465Z] [unzip] Processing entry: client\favicon-16x16.png
+[debug] [2023-11-25T04:10:37.465Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2023-11-25T04:10:37.465Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\favicon-16x16.png
+[debug] [2023-11-25T04:10:37.466Z] [unzip] Entry: client/manifest.json (compressed_size=246 bytes, uncompressed_size=551 bytes)
+[debug] [2023-11-25T04:10:37.466Z] [unzip] Processing entry: client\manifest.json
+[debug] [2023-11-25T04:10:37.466Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2023-11-25T04:10:37.466Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\manifest.json
+[debug] [2023-11-25T04:10:37.467Z] [unzip] Entry: client/favicon-32x32.png (compressed_size=1175 bytes, uncompressed_size=1175 bytes)
+[debug] [2023-11-25T04:10:37.467Z] [unzip] Processing entry: client\favicon-32x32.png
+[debug] [2023-11-25T04:10:37.467Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2023-11-25T04:10:37.467Z] [unzip] Writing file: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\favicon-32x32.png
+[debug] [2023-11-25T04:10:37.468Z] [unzip] Entry: client/android-chrome-192x192.png (compressed_size=7602 bytes, uncompressed_size=7834 bytes)
+[debug] [2023-11-25T04:10:37.468Z] [unzip] Processing entry: client\android-chrome-192x192.png
+[debug] [2023-11-25T04:10:37.468Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client
+[debug] [2023-11-25T04:10:37.468Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\client\android-chrome-192x192.png
+[debug] [2023-11-25T04:10:37.469Z] [unzip] Entry: server/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2023-11-25T04:10:37.469Z] [unzip] Processing entry: server\
+[debug] [2023-11-25T04:10:37.469Z] [unzip] mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\server\
+[debug] [2023-11-25T04:10:37.470Z] [unzip] Entry: server/server.js (compressed_size=343746 bytes, uncompressed_size=1346374 bytes)
+[debug] [2023-11-25T04:10:37.470Z] [unzip] Processing entry: server\server.js
+[debug] [2023-11-25T04:10:37.470Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\server
+[debug] [2023-11-25T04:10:37.470Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\server\server.js
+[debug] [2023-11-25T04:10:37.476Z] [unzip] Entry: server/server.js.map (compressed_size=289157 bytes, uncompressed_size=1325651 bytes)
+[debug] [2023-11-25T04:10:37.477Z] [unzip] Processing entry: server\server.js.map
+[debug] [2023-11-25T04:10:37.477Z] [unzip] else mkdir: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\server
+[debug] [2023-11-25T04:10:37.477Z] [unzip] deflating: C:\Users\Sahil Tushamar\.cache\firebase\emulators\ui-v1.11.7\server\server.js.map
+[debug] [2023-11-25T04:10:37.484Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-11-25T04:10:37.484Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-11-25T04:10:37.484Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Sahil Tushamar\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Sahil Tushamar\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-11-25T04:10:37.627Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-11-25T04:10:37.627Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "E:\Ecommerce-Clone\ecom-clone-app\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"E:\\Ecommerce-Clone\\ecom-clone-app\\functions\" for Cloud Functions..."}}
+[debug] [2023-11-25T04:10:37.775Z] Validating nodejs source
+[debug] [2023-11-25T04:10:40.557Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-11-25T04:10:40.558Z] Building nodejs source
+[debug] [2023-11-25T04:10:40.558Z] Failed to find version of module node: reached end of search path E:\Ecommerce-Clone\ecom-clone-app\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2023-11-25T04:10:40.561Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-11-25T04:10:40.568Z] Found firebase-functions binary at 'E:\Ecommerce-Clone\ecom-clone-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8035
+
+[error] ReferenceError: request is not defined
+    at Object.<anonymous> (E:\Ecommerce-Clone\ecom-clone-app\functions\index.js:34:15)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at loadModule (E:\Ecommerce-Clone\ecom-clone-app\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+    at loadStack (E:\Ecommerce-Clone\ecom-clone-app\functions\node_modules\firebase-functions\lib\runtime\loader.js:93:23)
+    at E:\Ecommerce-Clone\ecom-clone-app\functions\node_modules\firebase-functions\lib\bin\firebase-functions.js:56:56
+
+[debug] [2023-11-25T04:10:41.206Z] Got response code 400; body Failed to generate manifest from function source: ReferenceError: request is not defined
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ 127.0.0.1:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-11-25T04:18:55.998Z] File E:\Ecommerce-Clone\ecom-clone-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File E:\\Ecommerce-Clone\\ecom-clone-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-11-25T04:18:57.012Z] Validating nodejs source
+[debug] [2023-11-25T04:18:59.775Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-11-25T04:18:59.775Z] Building nodejs source
+[debug] [2023-11-25T04:18:59.775Z] Failed to find version of module node: reached end of search path E:\Ecommerce-Clone\ecom-clone-app\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2023-11-25T04:18:59.777Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-11-25T04:18:59.785Z] Found firebase-functions binary at 'E:\Ecommerce-Clone\ecom-clone-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8117
+
+[debug] [2023-11-25T04:19:00.407Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/ecom-clone-1a7aa/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/ecom-clone-1a7aa/us-central1/api)."}}
+[debug] [2023-11-25T04:19:21.603Z] [work-queue] {"queuedWork":["/ecom-clone-1a7aa/us-central1/api-2023-11-25T04:19:21.603Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-11-25T04:19:21.603Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/ecom-clone-1a7aa/us-central1/api-2023-11-25T04:19:21.603Z"],"workRunningCount":1}
+[debug] [2023-11-25T04:19:21.604Z] Accepted request GET /ecom-clone-1a7aa/us-central1/api --> us-central1-api
+[debug] [2023-11-25T04:19:21.609Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-11-25T04:19:21.611Z] [functions] Got req.url=/ecom-clone-1a7aa/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/ecom-clone-1a7aa/us-central1/api, mapping to path=/"}}
+[debug] [2023-11-25T04:19:21.621Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-11-25T04:19:21.622Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-11-25T04:19:23.262Z] [runtime-status] [2108] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"E:\\Ecommerce-Clone\\ecom-clone-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2108] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"E:\\\\Ecommerce-Clone\\\\ecom-clone-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-25T04:19:23.264Z] [runtime-status] [2108] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"E:\\Ecommerce-Clone\\ecom-clone-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2108] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"E:\\\\Ecommerce-Clone\\\\ecom-clone-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-25T04:19:23.264Z] [runtime-status] [2108] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2108] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-11-25T04:19:23.265Z] [runtime-status] [2108] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"E:\\Ecommerce-Clone\\ecom-clone-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2108] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"E:\\\\Ecommerce-Clone\\\\ecom-clone-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-25T04:19:23.548Z] [runtime-status] [2108] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2108] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-11-25T04:19:23.549Z] [runtime-status] [2108] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.5.0","resolution":"E:\\Ecommerce-Clone\\ecom-clone-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2108] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"E:\\\\Ecommerce-Clone\\\\ecom-clone-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-11-25T04:19:23.549Z] [runtime-status] [2108] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"E:\\Ecommerce-Clone\\ecom-clone-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2108] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"E:\\\\Ecommerce-Clone\\\\ecom-clone-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-25T04:19:23.550Z] [runtime-status] [2108] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"E:\\Ecommerce-Clone\\ecom-clone-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2108] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"E:\\\\Ecommerce-Clone\\\\ecom-clone-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-11-25T04:19:23.553Z] [runtime-status] [2108] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.5.0","resolution":"E:\\Ecommerce-Clone\\ecom-clone-app\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2108] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.5.0\",\"resolution\":\"E:\\\\Ecommerce-Clone\\\\ecom-clone-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-11-25T04:19:23.553Z] [runtime-status] [2108] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"E:\\Ecommerce-Clone\\ecom-clone-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2108] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"E:\\\\Ecommerce-Clone\\\\ecom-clone-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2023-11-25T04:19:23.761Z] [runtime-status] [2108] Functions runtime initialized. {"cwd":"E:\\Ecommerce-Clone\\ecom-clone-app\\functions","node_version":"20.9.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2108] Functions runtime initialized. {\"cwd\":\"E:\\\\Ecommerce-Clone\\\\ecom-clone-app\\\\functions\",\"node_version\":\"20.9.0\"}"}}
+[debug] [2023-11-25T04:19:23.761Z] [runtime-status] [2108] Listening to port: \\?\pipe\fire_emu_5b1943634255a7ca {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [2108] Listening to port: \\\\?\\pipe\\fire_emu_5b1943634255a7ca"}}
+[debug] [2023-11-25T04:19:23.850Z] [worker-us-central1-api-f56bb481-d4e6-46fc-867a-fe295362e0c5]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-f56bb481-d4e6-46fc-867a-fe295362e0c5]: IDLE"}}
+[debug] [2023-11-25T04:19:23.850Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-11-25T04:19:23.852Z] [worker-us-central1-api-f56bb481-d4e6-46fc-867a-fe295362e0c5]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-f56bb481-d4e6-46fc-867a-fe295362e0c5]: BUSY"}}
+[debug] [2023-11-25T04:19:23.862Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-api" in 10.9039ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 10.9039ms"}}
+[debug] [2023-11-25T04:19:23.864Z] [worker-us-central1-api-f56bb481-d4e6-46fc-867a-fe295362e0c5]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-f56bb481-d4e6-46fc-867a-fe295362e0c5]: IDLE"}}
+[debug] [2023-11-25T04:19:23.864Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2023-11-25T04:19:23.864Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2023-11-25T04:19:23.865Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2023-11-25T04:21:18.722Z] File E:\Ecommerce-Clone\ecom-clone-app\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File E:\\Ecommerce-Clone\\ecom-clone-app\\functions\\index.js changed, reloading triggers"}}
+[debug] [2023-11-25T04:21:19.745Z] Validating nodejs source
+[debug] [2023-11-25T04:21:21.391Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-11-25T04:21:21.391Z] Building nodejs source
+[debug] [2023-11-25T04:21:21.392Z] Failed to find version of module node: reached end of search path E:\Ecommerce-Clone\ecom-clone-app\functions\node_modules
+[warn] !  functions: Your requested "node" version "18" doesn't match your global version "20". Using node@20 from host. 
+[debug] [2023-11-25T04:21:21.393Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-11-25T04:21:21.399Z] Found firebase-functions binary at 'E:\Ecommerce-Clone\ecom-clone-app\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8824
+
+[error] Error: Route.get() requires a callback function but got a [object Object]
+    at Route.<computed> [as get] (E:\Ecommerce-Clone\ecom-clone-app\functions\node_modules\express\lib\router\route.js:211:15)
+    at app.<computed> [as get] (E:\Ecommerce-Clone\ecom-clone-app\functions\node_modules\express\lib\application.js:499:19)
+    at Object.<anonymous> (E:\Ecommerce-Clone\ecom-clone-app\functions\index.js:35:5)
+    at Module._compile (node:internal/modules/cjs/loader:1241:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:130:18)
+    at loadModule (E:\Ecommerce-Clone\ecom-clone-app\functions\node_modules\firebase-functions\lib\runtime\loader.js:40:16)
+
+[debug] [2023-11-25T04:21:21.994Z] Got response code 400; body Failed to generate manifest from function source: Error: Route.get() requires a callback function but got a [object Object]
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Functions codebase could not be analyzed successfully. It may have a syntax or runtime error"}}
+[debug] [2023-11-25T04:22:04.294Z] Received signal SIGHUP 1
