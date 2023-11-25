@@ -1,4 +1,4 @@
-import React, {useEffect, useState, history} from 'react';
+import React, {useEffect, useState} from 'react';
 import './Payment.css';
 import {useStateValue } from './StateProvider'
 import CheckoutProduct from './CheckoutProduct';
@@ -7,6 +7,7 @@ import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
 import CurrencyFormat from 'react-currency-format';
 import {  getBasketTotal  } from './reducer'; 
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 function Payment() {
 
@@ -19,6 +20,7 @@ function Payment() {
   const [error, setError] = useState(null);
   const [disabled, setDisabled] = useState(true);
   const [clientSecret, setClientSecret] = useState(true);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const getClientSecret = async () => {
@@ -47,7 +49,7 @@ function Payment() {
       setError(null);
       setProcessing(false);
 
-      history.replace('/orders');
+      navigate('/orders'); //re-check
     }) 
   }
 
